@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="login">
+      <h1 id="login-title">Login</h1>
+        <form action="/" method="POST">
+          <table id="login-fields">
+          <tr>
+            <td>
+              <div id="login-fields-username-label" class="label">Username: </div>
+            </td><td>
+              <input type="text" name="username" id="login-fields-username-entry" class="entry" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="login-fields-password-label" class="label">Password: </div>
+            </td><td>
+              <input type="password" name="password" id="login-fields-password-entry" class="entry" required>
+            </td>
+          </tr>
+          </table>
+          <input type="submit" name="submit" id="login-submit-entry" value="Submit">
+        </form>
+    </div>
+  </body>
+</html>
